@@ -46,3 +46,40 @@ epic.register_skybox({
     "sky_neg_x.png^[transformR90"
   }
 })
+
+
+epic.register_skybox({
+  name = "Asteroids",
+  textures = {
+    "asteroids_up.jpg^[transformR270",
+    "asteroids_dn.jpg^[transformR90",
+    "asteroids_ft.jpg",
+    "asteroids_bk.jpg",
+    "asteroids_lf.jpg",
+    "asteroids_rt.jpg"
+  }
+})
+
+epic.register_skybox({
+  name = "Nebulae",
+  textures = {
+    "nebulae_up.jpg^[transformR270",
+    "nebulae_dn.jpg^[transformR90",
+    "nebulae_ft.jpg",
+    "nebulae_bk.jpg",
+    "nebulae_lf.jpg",
+    "nebulae_rt.jpg"
+  }
+})
+
+epic.register_skybox({
+  name = "Heaven",
+  textures = {
+    "heaven_up.jpg^[transformR270",
+    "heaven_dn.jpg^[transformR90",
+    "heaven_ft.jpg",
+    "heaven_bk.jpg",
+    "heaven_lf.jpg",
+    "heaven_rt.jpg"
+  }
+})
