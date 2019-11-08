@@ -83,3 +83,16 @@ epic.register_skybox({
     "heaven_rt.jpg"
   }
 })
+
+
+epic.register_skybox({
+  name = "Arid 2",
+  textures = {
+    "arid2_up.jpg^[transformR270",
+    "arid2_dn.jpg^[transformR90",
+    "arid2_ft.jpg",
+    "arid2_bk.jpg",
+    "arid2_lf.jpg",
+    "arid2_rt.jpg"
+  }
+})
