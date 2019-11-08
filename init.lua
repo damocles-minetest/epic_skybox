@@ -96,3 +96,15 @@ epic.register_skybox({
     "arid2_rt.jpg"
   }
 })
+
+epic.register_skybox({
+  name = "Blizzard",
+  textures = {
+    "blizzard_up.jpg^[transformR270",
+    "blizzard_dn.jpg^[transformR90",
+    "blizzard_ft.jpg",
+    "blizzard_bk.jpg",
+    "blizzard_lf.jpg",
+    "blizzard_rt.jpg"
+  }
+})
