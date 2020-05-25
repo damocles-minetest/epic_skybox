@@ -72,7 +72,7 @@ minetest.register_node("epic_skybox:set", {
 			local skyboxname = meta:get_string("skyboxname")
 			for _, skyboxdef in ipairs(epic_skybox.list) do
 				if skyboxdef.name == skyboxname then
-					epic.set_skybox(player, skyboxdef)
+					epic_skybox.set_skybox(player, skyboxdef)
 				end
 			end
 			ctx.next()
