@@ -76,6 +76,17 @@ epic_skybox.register({
   }
 })
 
+epic_skybox.register({
+  name = "Deepspace 2",
+  textures = {
+		"warzone_up.png^[transformR270",
+		"warzone_dn.png^[transformR90",
+		"warzone_ft.png",
+		"warzone_bk.png",
+		"warzone_lf.png",
+		"warzone_rt.png"
+  }
+})
 
 epic_skybox.register({
   name = "Asteroids",
