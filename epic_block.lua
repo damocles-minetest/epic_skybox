@@ -28,14 +28,7 @@ end
 
 minetest.register_node("epic_skybox:set", {
 	description = "Epic set skybox block: sets the skybox for the player",
-	tiles = {
-		"epic_node_bg.png",
-		"epic_node_bg.png",
-		"epic_node_bg.png",
-		"epic_node_bg.png",
-		"epic_node_bg.png",
-		"epic_node_bg.png^epic_sky.png",
-	},
+	tiles = epic.create_texture("action", "epic_sky.png"),
 	paramtype2 = "facedir",
 	groups = {cracky=3,oddly_breakable_by_hand=3,epic=1},
 	on_rotate = screwdriver.rotate_simple,
